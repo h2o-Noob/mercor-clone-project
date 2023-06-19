@@ -1,0 +1,170 @@
+.div{
+    width: 20%;
+}
+
+.left {
+    width: 100%;
+    display: block;
+    border-right: 1px solid #DBDBDB;
+    position: sticky;
+    top: 0;
+}
+
+.top {
+    background-color: rgb(255, 255, 255);
+    padding: 12px 0px;
+    font-size: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    /* border-right: 2px solid #DBDBDB; */
+    border-bottom: 1px solid #DBDBDB;}
+
+.topLeft {
+    display: flex;
+    align-items: center;
+   
+}
+
+.topLeft > img {
+    width: 25px;
+}
+
+.topLeft > h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.topRight > img{
+    width: 30px
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    border: none;
+    background-color: #DBDBDB;
+}
+
+.middle {
+    
+}
+
+.middle > ul {
+    font-size: 16px;
+    list-style: none;
+    margin: 15px 5px;
+}
+
+.middle > ul > li {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: #787486;
+}
+
+.middle > ul > li > span{
+    margin-left: 20px;
+}
+
+hr:nth-of-type(2) {
+    width: 90%;
+    margin: auto;
+}
+
+.bottom {
+    padding: 30px 20px;
+    font-size: 20px; 
+}
+
+.list > div{
+    margin-top: 20px;
+    font-weight: 500;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.list > div:nth-child(1){
+    background-color: #EDEAFC;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #0D062D;
+}
+
+.list > div > span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #777486
+}
+.list > div > img{
+    width: 10px;
+}
+
+.box {
+    margin-top: 2vh;
+    height: 200px;
+}
+
+.bottom > h1{
+    color: transparent;
+}
+
+.bottom > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+}
+
+.bottom > div > h2{
+    color: #777486;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.bottom > div:nth-child(1) > img{
+    width: 20px;
+}
+
+.box > img {
+    display: block;
+    z-index: 20;
+}
+
+
+@media screen and (max-width: 600px) {
+    div.topLeft>h1 {
+      display: none;
+    }
+    div.middle>ul {
+        text-align: center;
+    }
+    div.middle>ul>li {
+        text-align: center;
+        padding: 12px 2px;
+    }
+    div.middle>ul>li>svg {
+        display: none;
+    }
+    div.middle>ul>li>span {
+        font-size: 10px;
+        margin-left: 1px;
+        
+    }
+    div.bottom{
+        padding: 10px 5px;
+    }
+    div.bottom > h2{
+        font-size: 6px;
+    }
+    div.list > div > span{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+  }

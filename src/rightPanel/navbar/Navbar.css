@@ -1,0 +1,91 @@
+.Nav{
+    background-color: white;
+    width: 93%;
+    height: 50px;
+    margin: auto;
+    z-index: 2;
+    display: flex;
+    padding: 12px 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow-y: hidden;
+    border-bottom: 1px solid #DBDBDB;
+    border-left: 1px solid #DBDBDB
+}
+
+.searchBox > input{
+    background-color: #F5F5F5;
+    font-size: 18px;
+    text-align: left;
+    padding: 12px 200px 12px 12px;    
+    border-radius: 5px;
+    color: #787486;
+    border: none;
+}
+
+.searchBox{
+    background-color: #F5F5F5;
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 15px;
+    border-radius: 5px;
+    color: #787486;
+    border: none;
+}
+
+.navRight{
+    text-align: right;
+}
+
+.navRightText{
+    text-align: right;
+}
+
+.navRightText > span:nth-child(1){
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.navRightText > span:nth-child(3){
+    font-weight: 200;
+    color: #787486;
+    font-size: 14px;
+}
+
+.navRightAvatar{
+    display: flex;
+}
+
+.navRightAvatar > div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+
+.navRightAvatar > div > *{
+    margin: 0px 20px;
+}
+
+.navRightAvatar > div > img{
+    width: 23px;
+}
+
+.navRightAvatar > img:nth-child(3){
+    width: 75px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    div.navRight {
+        display: none;
+    }
+    div.searchBox{
+        padding: 0px 0px 0px 1px;
+    }
+    div.searchBox > input{
+        padding: 1px 2px 1px 1px;    
+    }
+}

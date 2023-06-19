@@ -1,0 +1,14 @@
+.content{
+    /* padding: 0px 0px 0px 50px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+    div.content {
+        display: flex;
+        flex-direction: column;
+    }
+}
